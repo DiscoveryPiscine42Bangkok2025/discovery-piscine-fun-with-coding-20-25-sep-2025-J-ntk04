@@ -7,5 +7,6 @@ fi
 
 for i in "$@";
 do
-	mkdir "ex$i";
+	mkdir "ex$i"
+ 	echo "Created directory: ex$i"
 done
